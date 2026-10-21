@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: alwaysbookedai
+    runtime: static
+    staticPublishPath: .
+    buildCommand: null
+    plan: free
