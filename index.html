@@ -651,8 +651,23 @@
             box-shadow: 0 25px 60px rgba(0,0,0,0.5);
         }
         .portfolio-preview {
-            height: 220px; position: relative; overflow: hidden;
+            height: 260px; position: relative; overflow: hidden;
         }
+        .portfolio-preview .pf-shot {
+            position: absolute; inset: 0; width: 100%; height: 100%;
+            object-fit: cover; object-position: top center;
+            transition: transform 0.7s ease; z-index: 0;
+        }
+        .portfolio-preview::after {
+            content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+            background: linear-gradient(180deg, rgba(5,10,24,0.05) 0%, rgba(5,10,24,0.35) 45%, rgba(5,10,24,0.92) 100%);
+        }
+        .portfolio-preview > *:not(.pf-shot) { position: relative; z-index: 2; }
+        .portfolio-preview > .live-badge { position: absolute; z-index: 3; }
+        .portfolio-preview-barber, .portfolio-preview-bridal { justify-content: flex-end !important; padding-bottom: 1.4rem; }
+        .portfolio-preview h4 { color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.6); }
+        .portfolio-preview p { color: #dfe8f3 !important; opacity: 0.95 !important; }
+        .portfolio-card:hover .pf-shot { transform: scale(1.06); }
         .portfolio-preview-barber {
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
             display: flex; flex-direction: column;
@@ -924,10 +939,12 @@
 
         /* â•â• FLOATING AI ROBOT WIDGET â•â• */
         .ai-widget {
-            position: fixed; bottom: 20px; left: 20px;
+            position: fixed; bottom: 100px; right: 22px;
             z-index: 999; cursor: pointer;
             transition: all 0.3s;
+            animation: aiFloat 3.2s ease-in-out infinite;
         }
+        @keyframes aiFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
         .ai-widget:hover { transform: scale(1.08); }
         .ai-widget-img {
             width: 90px; height: 90px;
@@ -1001,6 +1018,25 @@
             .ai-widget-img { width: 70px; height: 70px; }
             .hero-logo-img { max-width: 250px; }
         }
+    </style>
+    <style id="ab-polish">
+        /* Visual polish (Oct 2026): lighter navy, higher text contrast, warm conversion CTAs */
+        :root { --bg-dark: #071230; --panel: rgba(14, 30, 62, 0.72); --panel-border: rgba(0, 212, 255, 0.16); --text-muted: #9aabc4; --warm: #ffb020; --warm-2: #ff8a00; }
+        body { background-color: var(--bg-dark); }
+        .btn-primary, .nav-cta {
+            background: linear-gradient(135deg, var(--warm), var(--warm-2)) !important;
+            color: #1c1300 !important; font-weight: 800 !important;
+            box-shadow: 0 8px 28px rgba(255, 160, 0, 0.35) !important;
+        }
+        .btn-primary:hover, .nav-cta:hover { box-shadow: 0 12px 36px rgba(255, 160, 0, 0.55) !important; transform: translateY(-2px); }
+        .pricing-cta { transition: transform .2s, box-shadow .2s; }
+        .pricing-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3); }
+        footer p { color: #8ea2b8 !important; }
+        footer a { color: #b8c7d9; text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        .industry-card img { transition: transform .6s ease; }
+        .industry-card:hover img { transform: scale(1.06); }
+        @media (max-width: 768px) { .ai-widget { bottom: 92px; right: 14px; } }
     </style>
 </head>
 <body>
@@ -1275,7 +1311,8 @@
             <div class="portfolio-grid">
                 <a href="/demos/double-b-barber-studio/" class="portfolio-card reveal-left">
                     <div class="portfolio-preview portfolio-preview-barber">
-                        <span class="live-badge">&#9679; Live</span>
+                                            <img class="pf-shot" src="assets/portfolio/barber-demo.webp" loading="lazy" width="900" height="563" alt="Double B Barber Studio website homepage — dark premium barbershop design with online booking">
+                                            <span class="live-badge">&#9679; Live</span>
                         <h4>Double B Barber Studio</h4>
                         <p>Dark Mode &middot; Premium &middot; High Conversions</p>
                     </div>
@@ -1287,7 +1324,8 @@
                 </a>
                 <a href="/demos/glamour-bridal-salon/" class="portfolio-card reveal-right">
                     <div class="portfolio-preview portfolio-preview-bridal">
-                        <span class="live-badge">&#9679; Live</span>
+                                            <img class="pf-shot" src="assets/portfolio/bridal-demo.webp" loading="lazy" width="900" height="563" alt="Glamour Bridal and Salon website homepage — elegant bridal beauty design with trial booking">
+                                            <span class="live-badge">&#9679; Live</span>
                         <h4>Glamour Bridal & Salon</h4>
                         <p>Elegant &middot; Trust-Building &middot; Seamless Booking</p>
                     </div>
@@ -1541,6 +1579,34 @@
 
     </div>
 
+    <!-- BLOG-LATEST:START -->
+<section class="abb" id="blog">
+<style>
+.abb{position:relative;z-index:10;padding:5rem 5%;max-width:1200px;margin:0 auto}
+.abb-head{text-align:center;margin-bottom:2.4rem}
+.abb-head .k{color:var(--accent);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
+.abb-head h2{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:clamp(1.8rem,4vw,2.6rem);margin:.4rem 0}
+.abb-head p{color:var(--text-muted)}
+.abb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.abb-card{background:var(--panel);border:1px solid var(--panel-border);border-radius:18px;overflow:hidden;text-decoration:none;transition:transform .3s,border-color .3s,box-shadow .3s}
+.abb-card:hover{transform:translateY(-6px);border-color:var(--accent);box-shadow:0 18px 50px rgba(0,212,255,.15)}
+.abb-ph{aspect-ratio:16/9;overflow:hidden}
+.abb-ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.abb-card:hover .abb-ph img{transform:scale(1.06)}
+.abb-tx{padding:1.2rem 1.3rem 1.4rem}
+.abb-tx span{color:var(--accent);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.abb-tx h3{color:#fff;font-family:'Space Grotesk',sans-serif;font-size:1.08rem;margin:.45rem 0 .7rem;line-height:1.35}
+.abb-tx b{color:var(--accent);font-size:.88rem}
+.abb-all{text-align:center;margin-top:2rem}
+.abb-all a{display:inline-block;border:1.5px solid var(--accent);color:var(--accent);padding:.75rem 1.5rem;border-radius:10px;font-weight:700;text-decoration:none}
+.abb-all a:hover{background:var(--accent);color:#04121f}
+</style>
+<div class="abb-head"><span class="k">From the blog</span><h2>Guides that keep your calendar full</h2><p>Practical playbooks on missed calls, booking, reviews and local SEO.</p></div>
+<div class="abb-grid"><a class="abb-card" href="/blog/missed-call-cost-for-salons-and-barbers/"><div class="abb-ph"><img src="/assets/blog/missed-call-hero.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Black-and-white photo of a modern salon with styling chairs and large windows"></div><div class="abb-tx"><span>Salons &amp; Barbers</span><h3>The Real Cost of a Missed Call for Salons &amp; Barbershops</h3><b>Read article &rarr;</b></div></a><a class="abb-card" href="/blog/booksy-vs-your-own-booking-site/"><div class="abb-ph"><img src="/assets/blog/booksy-hero.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Modern hair salon interior with white styling chairs and illuminated mirrors"></div><div class="abb-tx"><span>Booking</span><h3>Booksy vs. Your Own Booking Site: Which Actually Makes You Money?</h3><b>Read article &rarr;</b></div></a><a class="abb-card" href="/blog/what-is-missed-call-text-back/"><div class="abb-ph"><img src="/assets/blog/text-back-hero.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Person in a hoodie checking a smartphone in dim light"></div><div class="abb-tx"><span>Automation</span><h3>What Is Missed-Call Text-Back? A Plain-English Guide for Service Businesses</h3><b>Read article &rarr;</b></div></a></div>
+<div class="abb-all"><a href="/blog/">See all 12 articles &rarr;</a></div>
+</section>
+<!-- BLOG-LATEST:END -->
+
     <!-- ABOUT THE FOUNDER & FOOTER -->
     <section id="about" style="position: relative; z-index: 10; padding: 4rem 5%; text-align: center; max-width: 800px; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.05);">
         <img src="assets/founder.png" alt="Omy Grace - Founder" style="border-radius: 50%; width: 120px; height: 120px; border: 2px solid var(--accent); margin-bottom: 1.5rem; box-shadow: 0 0 20px rgba(0, 212, 255, 0.2); object-fit: cover;">
@@ -1569,7 +1635,7 @@
     <!-- â•â•â•â• FLOATING AI ROBOT WIDGET â•â•â•â• -->
     <div class="ai-widget" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
         <div class="ai-widget-pulse"></div>
-        <img src="data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22><circle cx=%2230%22 cy=%2230%22 r=%2228%22 fill=%22%23050a18%22 stroke=%22%2300d4ff%22 stroke-width=%223%22/><circle cx=%2230%22 cy=%2230%22 r=%2210%22 fill=%22%2300d4ff%22/><circle cx=%2230%22 cy=%2230%22 r=%2222%22 fill=%22none%22 stroke=%22%2300d4ff%22 stroke-width=%222%22 opacity=%220.4%22/></svg>" alt="AI Assistant" class="ai-widget-img">
+        <img src="assets/ai-assistant.svg" alt="Always Booked AI assistant — chat with us" class="ai-widget-img" width="90" height="90">
         <div class="ai-widget-label">Chat with AI</div>
     </div>
 

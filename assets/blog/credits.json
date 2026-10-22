@@ -1,0 +1,383 @@
+{
+ "missed-call-hero": {
+  "id": "unsplash-1560066984-138dadb4c035",
+  "title": "Salon interior",
+  "creator": "Unsplash",
+  "license": "unsplash",
+  "license_url": "https://unsplash.com/license",
+  "landing": "https://unsplash.com/photos/1560066984-138dadb4c035"
+ },
+ "missed-call-1": {
+  "id": "8b3622db-236f-45ea-b3dc-2261a19ed8f4",
+  "title": "Barber cutting hair with comb. Back view of man in barber shop",
+  "creator": "Nenad Stojkovic",
+  "creator_url": null,
+  "license": "by",
+  "license_version": "2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "landing": "https://commons.wikimedia.org/w/index.php?curid=116285951",
+  "query": "barber cutting hair"
+ },
+ "missed-call-2": {
+  "id": "0a742736-3afd-4825-8876-f893cb802309",
+  "title": "person holding smartphone their hand",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/3296741/free-photo-image-cc0-cell-phone-computer",
+  "query": "smartphone in hand"
+ },
+ "booksy-hero": {
+  "id": "6f24ca3b-81f2-4ce7-a52e-2d0bf3aa321c",
+  "title": "Untitled",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5945436/free-public-domain-cc0-photo",
+  "query": "hair salon interior"
+ },
+ "booksy-1": {
+  "id": "42e7c65c-a886-4c1e-ad9b-6582b453e2a9",
+  "title": "Scissors Comb",
+  "creator": "Candace McDaniel",
+  "creator_url": "https://stocksnap.io/author/133875",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/scissors-comb-A5M4RVGZKE",
+  "query": "hair stylist salon"
+ },
+ "text-back-1": {
+  "id": "58c60c6d-257a-45ea-acd6-c3f6eed58fb5",
+  "title": "Woman Holding",
+  "creator": "Burst",
+  "creator_url": "https://burst.shopify.com",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/woman-holding-LFTEMAVW1O",
+  "query": "text message smartphone"
+ },
+ "text-back-2": {
+  "id": "a317b409-cacb-47f9-874f-6d56e0104d18",
+  "title": "Construction Worker",
+  "creator": "Leeroy",
+  "creator_url": "https://www.lifeofpix.com",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/construction-worker-6B70C91911",
+  "query": "construction worker"
+ },
+ "gbp-1": {
+  "id": "e87e39c9-abd5-496b-b3db-36c3d71de8f4",
+  "title": "People Man",
+  "creator": "Antonio Grosz",
+  "creator_url": "https://stocksnap.io/author/23184",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/people-man-12EN7A4DA6",
+  "query": "map on smartphone"
+ },
+ "gbp-2": {
+  "id": "213f0bc1-b6b1-4774-974a-75251b66d108",
+  "title": "Shop owner holds her COVID-19",
+  "creator": "The African Union Mission in Somalia",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/8708899/photo-image-public-domain-mask-woman",
+  "query": "shop owner"
+ },
+ "reviews-hero": {
+  "id": "3f8316ff-415d-4782-af39-759a7a8d9587",
+  "title": "PNG People shopping sticker, transparent",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/11728415/png-face-hand",
+  "query": "happy customer shop"
+ },
+ "reviews-1": {
+  "id": "7db5bc40-ddc0-4eff-9e9b-8259a87913a6",
+  "title": "Business Establishments",
+  "creator": "Rob Bye",
+  "creator_url": "https://stocksnap.io/author/4298",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/business-establishments-3QX7WQCK52",
+  "query": "coffee shop counter"
+ },
+ "reviews-2": {
+  "id": "c850067e-e0bf-4f4e-b4f6-0318ab72faa6",
+  "title": "Dan Price at Float Conference",
+  "creator": "Float Conference",
+  "creator_url": "https://www.youtube.com/c/Floatconference",
+  "license": "by",
+  "license_version": "3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "landing": "https://commons.wikimedia.org/w/index.php?curid=121932279",
+  "query": "small business owner"
+ },
+ "no-shows-hero": {
+  "id": "9bf07973-7f09-4f4f-99c6-b148200c61b3",
+  "title": "Almost empty calendar",
+  "creator": "Merrilee",
+  "creator_url": "https://commons.wikimedia.org/wiki/User:Merrilee",
+  "license": "by",
+  "license_version": "3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "landing": "https://commons.wikimedia.org/w/index.php?curid=31137132",
+  "query": "appointment calendar"
+ },
+ "no-shows-2": {
+  "id": "95e6ffd4-1c66-4fc2-bffa-202b4140eab3",
+  "title": "Woman and children looking at phone",
+  "creator": "U.S. Agency for International Development",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/6198591/photo-image-phone-public-domain-kid",
+  "query": "woman looking at phone"
+ },
+ "roofing-hero": {
+  "id": "3b4a0919-4483-4919-a356-35f872f52eb7",
+  "title": "Untitled",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5942657/free-public-domain-cc0-photo",
+  "query": "roofer working on roof"
+ },
+ "roofing-1": {
+  "id": "0b83e8bf-5dda-4dea-8e94-79ad2389066b",
+  "title": "Roof Shingle",
+  "creator": "Bernard Spragg",
+  "creator_url": "https://www.flickr.com/photos/volvob12b",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/roof-shingle-RIUJONCXNY",
+  "query": "roof shingles"
+ },
+ "roofing-2": {
+  "id": "c426323b-f1d8-4439-a84a-72375e7fe68e",
+  "title": "Storm Clouds",
+  "creator": "Free Nature Stock",
+  "creator_url": "https://freenaturestock.com",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/storm-clouds-KRZSQKJRCT",
+  "query": "storm clouds"
+ },
+ "solar-hero": {
+  "id": "b386df0a-fb56-4339-ac8c-1c425ae88bc0",
+  "title": "WTJ Parker D Solar panels on roof",
+  "creator": "Parker D (Wikipedia Takes Joondalup participant)",
+  "creator_url": null,
+  "license": "by",
+  "license_version": "3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "landing": "https://commons.wikimedia.org/w/index.php?curid=17503018",
+  "query": "solar panels on roof"
+ },
+ "solar-1": {
+  "id": "b2352b79-f07e-491b-a647-2467a60453c6",
+  "title": "Free solar panel installation crew",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5906768/photo-image-public-domain-person-free",
+  "query": "solar panel installation"
+ },
+ "solar-2": {
+  "id": "1335afac-3aa0-4e12-bc8a-b5073029529e",
+  "title": "Solar Building",
+  "creator": "Matt Bango",
+  "creator_url": "https://mattbango.photo",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/solar-building-EPYDFKPLZJ",
+  "query": "house with solar panels"
+ },
+ "med-spa-hero": {
+  "id": "36f3ad85-1497-49d0-ac7a-66b1546c8b29",
+  "title": "Untitled",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5946843/free-public-domain-cc0-photo",
+  "query": "spa treatment room"
+ },
+ "med-spa-1": {
+  "id": "f3691255-1b5e-4508-b914-1b2c3e7b0bba",
+  "title": "Woman Skin",
+  "creator": "Authentic Stock",
+  "creator_url": "https://www.authentic.co",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/woman-skin-JF6DZWDDO3",
+  "query": "facial skincare treatment"
+ },
+ "hvac-hero": {
+  "id": "513413e6-36ad-406d-9253-a32b2406c14e",
+  "title": "U.S. Air Force Staff Sgts",
+  "creator": "National Guard of the United States",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/4040169/photo-image-public-domain-people-construction",
+  "query": "air conditioning technician"
+ },
+ "hvac-2": {
+  "id": "74d1dfd1-9865-4688-9953-7bd0cf0930b7",
+  "title": "Free house, starry night sky",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5927594/photo-image-public-domain-house-home",
+  "query": "house at night"
+ },
+ "dental-hero": {
+  "id": "8e4e8924-9065-4ecf-9544-773205668e3b",
+  "title": "Dental clinic",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/6020787/dental-clinic-free-public-domain-cc0-photo",
+  "query": "dental office"
+ },
+ "dental-1": {
+  "id": "ai-dental-1",
+  "title": "AI-generated illustration",
+  "creator": "Always Booked",
+  "license": "ai",
+  "license_url": null,
+  "landing": null
+ },
+ "local-seo-1": {
+  "id": "f272c31f-d045-4367-b064-36bbb875769f",
+  "title": "Analytics Charts",
+  "creator": "Negative Space",
+  "creator_url": "https://stocksnap.io/author/4440",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/analytics-charts-JVSII4KCCK",
+  "query": "laptop analytics"
+ },
+ "local-seo-2": {
+  "id": "d2ecf2eb-ca97-4a2b-bafe-48edc186b1eb",
+  "title": "Street Scene 47th Street South",
+  "creator": "U.S. National Archives",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/8769951/photo-image-vintage-light-person",
+  "query": "city street small businesses"
+ },
+ "booksy-2": {
+  "id": "cb251e7e-6a2c-4217-bc06-8afbaa5a1f7a",
+  "title": "Calculator Calendar",
+  "creator": "Tevarak",
+  "creator_url": "https://stocksnap.io/account",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/calculator-calendar-RFVHCUGML3",
+  "query": "calendar"
+ },
+ "text-back-hero": {
+  "id": "77477944-7a7d-47dc-839f-206e3260a3be",
+  "title": "Hoodie Man Checks Phone",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/5969811/hoodie-man-checks-phone",
+  "query": "man on phone"
+ },
+ "gbp-hero": {
+  "id": "ai-gbp-hero",
+  "title": "AI-generated illustration",
+  "creator": "Always Booked",
+  "license": "ai",
+  "license_url": null,
+  "landing": null
+ },
+ "hvac-1": {
+  "id": "c090c45d-ca01-44b8-98d8-3148371f4e30",
+  "title": "air conditioners",
+  "creator": "Lora",
+  "creator_url": "https://sketchfab.com/Lora_o",
+  "license": "by",
+  "license_version": "4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "landing": "https://sketchfab.com/3d-models/65417369a2724c9ebf06e7698238a856",
+  "query": "air conditioner"
+ },
+ "no-shows-1": {
+  "id": "9ff083f3-0f88-43f9-b4b4-4cc702b206d0",
+  "title": "Empty Chairs",
+  "creator": "Unknown",
+  "creator_url": null,
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://www.rawpixel.com/image/6083477/empty-chairs",
+  "query": "empty chairs"
+ },
+ "med-spa-2": {
+  "id": "4c4cd71b-13a0-4ed7-9775-0bacfaff770f",
+  "title": "Beauty Skincare",
+  "creator": "Authentic Stock",
+  "creator_url": "https://www.authentic.co",
+  "license": "cc0",
+  "license_version": "1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "landing": "https://stocksnap.io/photo/beauty-skincare-LRSAT4NCLS",
+  "query": "facial treatment"
+ },
+ "dental-2": {
+  "id": "ai-dental-2",
+  "title": "AI-generated illustration",
+  "creator": "Always Booked",
+  "license": "ai",
+  "license_url": null,
+  "landing": null
+ },
+ "local-seo-hero": {
+  "id": "ai-local-seo-hero",
+  "title": "AI-generated illustration",
+  "creator": "Always Booked",
+  "license": "ai",
+  "license_url": null,
+  "landing": null
+ }
+}
