@@ -230,7 +230,7 @@ def render_post(p):
 <meta name="twitter:title" content="{t}">
 <meta name="twitter:description" content="{E(p['description'])}">
 <meta name="twitter:image" content="{hero}">
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#050a18">
 <link rel="preload" as="image" href="/assets/blog/{p['img']}-hero.webp">
 {FONTS}
 <script type="application/ld+json">{ld(schema)}</script>
@@ -323,7 +323,7 @@ def render_index():
 <meta property="og:url" content="{SITE}/blog/">
 <meta property="og:image" content="{SITE}/assets/blog/{feat['img']}-hero.webp">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#050a18">
 {FONTS}
 <script type="application/ld+json">{ld(schema)}</script>
 <style>{BASE_CSS}{CARD_CSS}{idx_css}</style>
