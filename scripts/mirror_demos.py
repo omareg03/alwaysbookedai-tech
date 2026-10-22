@@ -16,14 +16,7 @@ SITES = {
     "glamour-bridal-salon": "https://ubiquitous-sunburst-8851d3.netlify.app/",
 }
 UA = {"User-Agent": "Mozilla/5.0"}
-BAR = (
-    '<div style="background:#050a18;color:#9db1c4;text-align:center;padding:8px 12px;'
-    'font:13px/1.4 Inter,system-ui,sans-serif;position:relative;z-index:99999">'
-    'Live demo built by <a href="https://alwaysbookedai.tech/" style="color:#00d4ff;'
-    'text-decoration:none;font-weight:600">Always Booked</a> &middot; '
-    '<a href="https://alwaysbookedai.tech/#pricing" style="color:#00d4ff;text-decoration:none">'
-    'Get a site like this &rarr;</a></div>'
-)
+BAR = '<div id="ab-demo-bar" style="position:fixed;top:0;left:0;right:0;height:34px;line-height:34px;background:#050a18;color:#9db1c4;text-align:center;font:12.5px/34px Inter,system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 10px;z-index:2147483000;border-bottom:1px solid rgba(0,212,255,.25)">Live demo built by <a href="https://alwaysbookedai.tech/" style="color:#00d4ff;text-decoration:none;font-weight:600">Always Booked</a> &middot; <a href="https://alwaysbookedai.tech/#pricing" style="color:#00d4ff;text-decoration:none">Get a site like this &rarr;</a></div><style>body{padding-top:34px!important}</style><script>(function(){var H=34;function fix(){document.querySelectorAll("body *").forEach(function(el){if(el.id==="ab-demo-bar"||el.closest("#ab-demo-bar"))return;var cs=getComputedStyle(el);if((cs.position==="fixed"||cs.position==="sticky")&&parseFloat(cs.top)===0&&el.getBoundingClientRect().height<200){el.style.top=H+"px";}});}if(document.readyState!=="loading")fix();else document.addEventListener("DOMContentLoaded",fix);})();</script>'
 
 
 def fetch(url):
