@@ -19,7 +19,6 @@ TAG = "purefileconve-20"
 BOOKING = "https://api.leadconnectorhq.com/widget/bookings/discovery-call-omar"
 FIVERR = "https://www.fiverr.com/omareg03"
 PFC = "https://purefileconverter.com"
-MFNF = "https://www.youtube.com/@MyFrenchiesNFriends"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDITS = json.load(open(os.path.join(ROOT, "assets", "blog", "credits.json"), encoding="utf-8"))
 E = html.escape
@@ -104,7 +103,7 @@ def footer():
 <div><a class="brand" href="/"><img src="/assets/logo.png" width="34" height="24" alt="Always Booked logo">Always Booked</a>
 <p style="margin-top:.8rem;font-size:.9rem;max-width:420px">AI front-desk, online booking, missed-call text-back and Google review automation for local service businesses. Orlando, FL &middot; info@alwaysbookedai.tech</p></div>
 <div><h4>Explore</h4><a href="/">Home</a><a href="/#pricing">Plans &amp; pricing</a><a href="/blog/">Blog</a><a href="{BOOKING}" target="_blank" rel="noopener">Book a discovery call</a></div>
-<div><h4>More from us</h4><a href="{PFC}" target="_blank" rel="noopener">Free file tools (PureFileConverter)</a><a href="{FIVERR}" target="_blank" rel="noopener">Services on Fiverr</a><a href="{MFNF}" target="_blank" rel="noopener">My Frenchies N' Friends</a></div>
+<div><h4>More from us</h4><a href="{PFC}" target="_blank" rel="noopener">Free file tools (PureFileConverter)</a><a href="{FIVERR}" target="_blank" rel="noopener">Services on Fiverr</a></div>
 </div><p class="fine">&copy; 2026 Always Booked. As an Amazon Associate I earn from qualifying purchases. Some links on this site are affiliate links.</p></footer>"""
 
 
