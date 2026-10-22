@@ -1038,6 +1038,7 @@
         .industry-card:hover img { transform: scale(1.06); }
         @media (max-width: 768px) { .ai-widget { bottom: 92px; right: 14px; } }
     </style>
+    <noscript><style>.reveal, .reveal-left, .reveal-right { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 <body>
 
@@ -1656,6 +1657,12 @@
             });
         }, { threshold: 0.1 });
         document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
+        // Safety net: never leave content hidden (no IntersectionObserver, JS hiccups, very tall blocks)
+        window.addEventListener('load', () => setTimeout(() => {
+            document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+                if (el.getBoundingClientRect().top < window.innerHeight * 1.2) el.classList.add('visible');
+            });
+        }, 2500));
 
         // â”€â”€ Nav Shrink â”€â”€
         window.addEventListener('scroll', () => {
